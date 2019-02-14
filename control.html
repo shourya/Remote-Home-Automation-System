@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Automation System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+<script src="js/jquery-1.8.3.min.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+     <script> 
+              $(document).ready(function(){
+                  
+
+                  $("#r1").click(function(){
+                  $("#r1-panel").slideToggle("slow");
+                  });
+
+                $("#r2").click(function(){
+                  $("#r2-panel").slideToggle("slow");
+                  });
+
+                $("#r3").click(function(){
+                  $("#r3-panel").slideToggle("slow");
+                 });
+
+                $("#r4").click(function(){
+                  $("#r4-panel").slideToggle("slow");
+                 });
+
+
+
+              });
+
+
+        </script>
+           
+          <style type="text/css"> 
+          .flip
+          {
+          padding:5px;
+          text-align:center;
+          background-color:#1ABC9C;
+          border:solid 1px #16A085;
+          font-family: cursive;
+          font-style: italic;
+          border-radius: 10px;
+
+          }
+         
+          .panel
+          {
+          padding:50px;
+          display:none;
+          text-align:center;
+          background-color:#1ABC9C;
+          border:solid 1px #16A085;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          }
+
+          .main
+          {
+            margin:auto;
+            width:40%;
+            
+            padding-bottom: 2%;
+
+          }
+
+
+          .box-main>h1
+          {
+            text-align: center;
+            margin-bottom: 5%;
+            font-style: italic;
+            font-family: cursive;
+          }
+
+         
+
+          .list
+          {
+            list-style: none;
+            vertical-align: super;
+            text-align: left;
+          }
+
+          
+
+         
+        </style>
+
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-main">
+
+          <h1>Welcome to your Home Automation System </h1>
+                
+                <div class="main">
+                    <div class="flip" id="r1">Room No 1</div>
+                    
+                    <div class="panel" id="r1-panel" >   
+                  
+                    <table>
+                            <tr class="list"><td>Tube Light</td>
+                            <td ><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td> 
+                            </tr>
+                            
+                            <tr class="list"><td>Fan</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Night Lamp</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Switch</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+
+                    </table>
+                    </div>
+                </div>
+
+                
+                <div class="main">
+                    <div class="flip" id="r2" >Room No 2 </div>
+                    <div class="panel" id="r2-panel" >
+
+                    <table>
+                            <tr class="list"><td>Tube Light</td>
+                            <td ><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td> 
+                            </tr>
+                            
+                            <tr class="list"><td>Fan</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Night Lamp</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Switch</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+
+                    </table>
+
+
+                    </div>
+                </div>
+
+          <div class="main">
+                  <div class="flip"  id="r3">Room No 3</div>
+                  <div class="panel" id="r3-panel" >
+                    
+
+                    <table>
+                            <tr class="list"><td>Tube Light</td>
+                            <td ><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td> 
+                            </tr>
+                            
+                            <tr class="list"><td>Fan</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Night Lamp</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Switch</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+
+                    </table>
+
+
+
+                  </div>
+          </div>
+
+
+          <div class="main">
+                  <div class="flip"  id="r4">Room No 4</div>
+                  <div class="panel" id="r4-panel" >
+                    
+
+                    <table>
+                            <tr class="list"><td>Tube Light</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td> 
+                            </tr>
+                            
+                            <tr class="list"><td>Fan</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Night Lamp</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+                            <tr class="list"><td>Switch</td>
+                            <td><div class="switch"><input type="checkbox" checked data-toggle="switch"/></div></td>
+                            </tr>
+
+
+                    </table>
+
+
+
+                  </div>
+          </div>
+
+
+
+  </div>
+</div>
+    <!-- /.container -->
+
+
+    <!-- Load JS here for greater good =============================-->
+    
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+  </body>
+</html>
